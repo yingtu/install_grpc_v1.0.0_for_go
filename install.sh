@@ -5,19 +5,19 @@ tar -xvf gocode_src.tar.gz
 set -x
 
 # 复制 github.com/golang/protobuf
-rm $GOPATH/src/github.com/golang/protobuf -rf
+rm -rf $GOPATH/src/github.com/golang/protobuf
 mkdir -p $GOPATH/src/github.com/golang
-cp src/github.com/golang/protobuf $GOPATH/src/github.com/golang -rf
+cp -rf src/github.com/golang/protobuf $GOPATH/src/github.com/golang
 
 # 复制 golang.org/x/net
-rm $GOPATH/src/golang.org/x/net -rf
+rm -rf $GOPATH/src/golang.org/x/net
 mkdir -p $GOPATH/src/golang.org/x/net
-cp src/golang.org/x/net $GOPATH/src/golang.org/x -rf
+cp -rf src/golang.org/x/net $GOPATH/src/golang.org/x
 
 # 复制 google.golang.org/grpc
-rm $GOPATH/src/google.golang.org/grpc -rf
+rm -rf $GOPATH/src/google.golang.org/grpc
 mkdir -p $GOPATH/src/google.golang.org/grpc
-cp src/google.golang.org/grpc $GOPATH/src/google.golang.org -rf
+cp -rf src/google.golang.org/grpc $GOPATH/src/google.golang.org
 
 # 安装 protoc-gen-go
 go get -u github.com/golang/protobuf/protoc-gen-go
