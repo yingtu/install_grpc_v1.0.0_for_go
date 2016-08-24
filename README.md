@@ -1,6 +1,6 @@
 gRPC 1.0 稳定版[已经推出](http://www.grpc.io/blog/gablogpost)，你应该升级你的 gocode 下的代码到 gRPC 1.0
 
-因为 golang.org 无法访问，所以我把 grpc 需要的包打包在这里并通过脚本安装到你的 gocode 下。如果你可以访问 golang.org，请直接去 [github 页面](https://github.com/grpc/grpc-go)安装。
+因为 golang.org 无法访问，所以我把 grpc 需要的包打包在这里并通过脚本安装到你的 gocode 下。如果你可以访问 golang.org，请直接去[github 页面](https://github.com/grpc/grpc-go)安装。
 
 ## 升级步骤
 
