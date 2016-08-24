@@ -11,5 +11,7 @@ gRPC 1.0 稳定版[已经推出](http://www.grpc.io/blog/gablogpost)，你应该
 ## 包版本
 
 github.com/golang/protobuf: 888eb0，2016/8/23
+
 golang.org/x/net: 7394c11, 2016/8/19
+
 google.golang.org/grpc: 7f06136, 2016/8/23
